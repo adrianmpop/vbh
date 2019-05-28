@@ -37,7 +37,7 @@ int hvi_handle_event_msr(__u32 msr, __u64 old_value,
 		sizeof(struct hvi_event_msr), allow);
 }
 
-int hvi_handle_event_dso(int *params)
+int hvi_handle_event_dfo(int *params)
 {
 	int allow;
 
